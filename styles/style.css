@@ -8,13 +8,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.title{
+  text-align: center;
+}
 .title h2{
     font-size: 30px;
 }
 .title p{
     font-size: 18px;
     color: #c07b8a;
-    padding: 20px 0;
+    margin: 15px 0 25px 0;
 }
 
 .btn-primary{
@@ -91,4 +94,71 @@ body {
 .hot-deal-img{
     width: 50%;
     text-align: center;
+}
+
+/* Instagram section styles */
+
+.instagram-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+.instagram-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.instagram-img img{
+  width: 280px;
+}
+
+/* Coupon Section */
+
+.coupon-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 100px 0;
+}
+
+.coupon-form{
+  text-align: center;
+}
+
+.email{
+  padding: 10px 20px;
+  width: 400px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/* Footer section */
+
+footer{
+  background-color: #111010;
+  padding: 100px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+footer h2{
+  color: #E55473;
+}
+
+footer span {
+  color: #ffffff;
+}
+
+footer p{
+  color: #cbd6c3;
+  margin: 15px 0;
+}
+
+footer small{
+  color: #9eac93;
 }
